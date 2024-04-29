@@ -2,7 +2,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-
+    
+    //Declara duas variáveis globais: biblioteca, do tipo Biblioteca, e clienteLogado, do tipo Cliente.
+    // A biblioteca é utilizada para gerenciar os livros e clientes, enquanto clienteLogado é usado para armazenar o cliente que está atualmente logado no sistema.
     private static Biblioteca biblioteca = new Biblioteca();
     private static Cliente clienteLogado = null;
 
@@ -18,7 +20,9 @@ public class Main {
             System.out.print("Opção: ");
             opcao = scanner.nextInt();
             scanner.nextLine(); // Limpar o buffer do scanner
-
+            
+    //Utiliza um loop do-while para exibir um menu de opções e processar a escolha do usuário até que a opção "Sair" seja selecionada.
+    ////A classe main implementa um sistema simples de gerenciamento de biblioteca.
             switch (opcao) {
                 case 1:
                     cadastrarCliente(scanner);
@@ -181,3 +185,4 @@ public class Main {
         return null;
     }
 }
+
