@@ -2,13 +2,15 @@ class Pessoa {
     private String nome;
     private String endereco;
     private String telefone;
-
+    
+    //O construtor inicializa um objeto Pessoa com o nome, endereço e telefone fornecidos.
     public Pessoa(String nome, String endereco, String telefone) {
         this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
     }
-
+    
+    //Esses métodos permitem acessar e modificar os atributos da pessoa (nome, endereço e telefone).
     public String getNome() {
         return nome;
     }
@@ -32,13 +34,15 @@ class Pessoa {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
-
+    
+    //printInfo(): Imprime as informações básicas da pessoa (nome, endereço e telefone).
     public void printInfo() {
         System.out.println("Nome: " + nome);
         System.out.println("Endereço: " + endereco);
         System.out.println("Telefone: " + telefone);
     }
-
+    
+    //imprimirDetalhes(): Função idêntica a printInfo(), só que com um nome diferente.
     public void imprimirDetalhes() {
         System.out.println("Nome: " + nome);
         System.out.println("Endereço: " + endereco);
