@@ -1,10 +1,8 @@
-## Projeto_POO2
+# Projeto_POO2
 
-#Adicionais:
+## Adicionais:
 
 - Sistema para o usuário se identificar.
-
-- Consulta de livros.
-
+- Consulta de livros(mostra se esta disponível ou não).
 - multa em caso de atraso de devolução.
-- 
+  
