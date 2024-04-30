@@ -4,4 +4,5 @@
 
 - Sistema para o usuário se identificar.
 - Consulta de livros(mostra se esta disponível ou não).
-- multa em caso de atraso de devolução.
+- Multa em caso de atraso de devolução.
+- Adicional na classe "Pessoa"
