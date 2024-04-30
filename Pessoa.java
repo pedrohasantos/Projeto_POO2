@@ -37,20 +37,13 @@ class Pessoa {
     
     //printInfo(): Imprime as informações básicas da pessoa (nome, endereço e telefone).
     public void printInfo() {
-    System.out.println("Nome: " + nome);
-    System.out.println("Endereço: " + endereco);
-    System.out.println("Telefone: " + telefone);
-    
-    // Verifica se o nome é "Lex Luthor" e imprime a mensagem adicional
-    if (nome.equals("Lex Luthor")) {
-        System.out.println("E Coringa roubou o laço da Mulher Maravilha.");
-    }
-}
-    
-    //imprimirDetalhes(): Função idêntica a printInfo(), só que com um nome diferente.
-    public void imprimirDetalhes() {
         System.out.println("Nome: " + nome);
         System.out.println("Endereço: " + endereco);
         System.out.println("Telefone: " + telefone);
+        
+        // Verifica se o nome é "Lex Luthor" e imprime a mensagem adicional
+        if (nome.equals("Lex Luthor")) {
+            System.out.println("E Coringa roubou o laço da Mulher Maravilha.");
+        }
     }
 }
